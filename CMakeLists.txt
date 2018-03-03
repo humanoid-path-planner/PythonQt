@@ -168,9 +168,12 @@ set(headers
     src/PythonQtUtils.h
     src/PythonQtVariants.h
     src/PythonQtPythonInclude.h
-    src/gui/PythonQtScriptingConsole.h
     generated_cpp${generated_cpp_suffix}/PythonQt_QtBindings.h
 )
+
+set(headers_gui
+  src/gui/PythonQtScriptingConsole.h
+  )
 
 #-----------------------------------------------------------------------------
 # Headers that should run through moc
